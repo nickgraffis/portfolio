@@ -1,0 +1,123 @@
+/*!
+* Bootstrap v4.2.1 (https://getbootstrap.com/)
+* Copyright 2011-2018 The Bootstrap Authors
+* Copyright 2011-2018 Twitter, Inc.
+* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+*/
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import "../node_modules/rfs/scss";
+$color: rgb(255,0,0);
+$enable-responsive-font-sizes: true;
+
+body,html{
+height:100%;
+}
+
+.navbar {
+  position: fixed;
+}
+.navbar-brand {
+  color: black;
+  padding-left: 1vh;
+  padding-top: 1vh;
+  font-family: 'Lora', serif;
+}
+.top-line {
+  width: 500px;
+  border-top: 1px solid black;
+  margin-left: 2vw;
+}
+.vertical-line-top {
+  position: fixed;
+  z-index: 4;
+  border-left: 1px solid black;
+  height: 35vh;
+  margin-left: 2vw;
+  margin-top: 8vh;
+}
+.vertical-line-bottom {
+  position: fixed;
+  z-index: 4;
+  border-left: 1px solid black;
+  height: 35vh;
+  margin-left: 2vw;
+  margin-top: 60vh;
+}
+.title {
+  font-family: 'Lora', serif;
+  font-size:4vw;
+  color: black;
+}
+
+.mouse {
+  position: absolute;
+  z-index: 1;
+  width: 70vw;
+  left: 4vw;
+  bottom: -3vw;
+}
+
+.left-vertical-nav {
+  position: fixed;
+  top: 50%;
+  left: 1vw;
+  z-index: 4;
+  opacity: 1;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.right-vertical-nav {
+  position: fixed;
+  top: 50%;
+  z-index: 4;
+  opacity: 1;
+  right: -6vw;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.right-vertical-nav-items {
+  display: flex;
+  justify-content: space-between;
+  width: 20vw;
+}
+
+.dribbble {
+  background-color: #FCC4DC;
+}
+
+.dribbble-content {
+  padding: 10vh;
+}
+
+.link {
+  font-family: 'Lora', serif;
+  color: #000;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.social-link {
+  font-family: 'Lora', serif;
+  color: #000;
+  font-weight: 400;
+  text-decoration: none;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
